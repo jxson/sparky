@@ -17,16 +17,18 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    ".document",
-     ".gitignore",
-     "LICENSE",
-     "README.rdoc",
-     "Rakefile",
-     "VERSION",
+    "lib/sparky.rb",
      "lib/sparky.rb",
-     "spec/sparky_spec.rb",
-     "spec/spec.opts",
-     "spec/spec_helper.rb"
+     "lib/sparky/lorem.rb",
+     "lib/sparky/lorem.rb",
+     "lib/sparky/name.rb",
+     "lib/sparky/name.rb",
+     "lib/sparky/names/first_names.rb",
+     "lib/sparky/names/first_names.rb",
+     "lib/sparky/names/last_names.rb",
+     "lib/sparky/names/last_names.rb",
+     "lib/sparky/sparky.rb",
+     "lib/sparky/sparky.rb"
   ]
   s.homepage = %q{http://github.com/jxson/sparky}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -34,7 +36,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{What do you call a dog with no back legs and metal nuts?}
   s.test_files = [
-    "spec/sparky_spec.rb",
+    "spec/sparky/lorem_spec.rb",
+     "spec/sparky/sparky_spec.rb",
      "spec/spec_helper.rb"
   ]
 

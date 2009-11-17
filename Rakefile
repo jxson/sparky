@@ -11,6 +11,8 @@ begin
     gem.homepage = "http://github.com/jxson/sparky"
     gem.authors = ["Jason Campbell"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    # gem.files.include %w(lib/base.rb lib/lorem.rb)
+    gem.files = FileList['lib/**/*.rb', 'lib/**/**/*.rb']
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
