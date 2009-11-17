@@ -70,7 +70,7 @@ class Sparky
         words = (random_words * repeat)[0, word_count].join(' ')
       end
 
-      words.gsub(/\S/, '')
+      words.gsub(/\\S/, '')
     end
 
     def make_sentence
