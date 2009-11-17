@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "sparky"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "What do you call a dog with no back legs and metal nuts?"
+    gem.description = "Light it up sparky! Random text (lorem ipsum), numbers, and names that at least look real.."
     gem.email = "jason@greatergood.cc"
     gem.homepage = "http://github.com/jxson/sparky"
     gem.authors = ["Jason Campbell"]
